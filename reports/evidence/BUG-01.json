@@ -1,0 +1,20 @@
+{
+  "title": "Out-of-stock product can be added to the cart and ordered",
+  "product": {
+    "id": "01M6HKFKWB6PCV56C8J8HGHMS8",
+    "name": "Long Nose Pliers",
+    "in_stock": false
+  },
+  "addToCart": {
+    "status": 200,
+    "body": {
+      "result": "item added or updated"
+    }
+  },
+  "createOrder": {
+    "status": 201,
+    "invoice_number": "INV-2026000004",
+    "total": 14.24
+  },
+  "expected": "add-to-cart rejected (4xx) and the order rejected (4xx)"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "After `migrate:fresh --seed` the catalogue serves stale product ids from a 5-minute cache; add-to-cart fails with \"The selected product id is invalid\"",
+  "steps": [
+    "GET /products (warm the catalogue cache)",
+    "docker compose exec laravel-api php artisan migrate:fresh --seed  — without cache:clear",
+    "GET /products?q=Washers",
+    "POST /carts/{id} with the product id from the list"
+  ],
+  "cachedProductIdFromApi": "01M6HKF00485DPWKMYQSRQBVBP",
+  "actualProductIdInDatabase": "01M6HKFKWN4J2C933FDEG6M6D1",
+  "idsMatch": false,
+  "addToCart": {
+    "status": 422,
+    "body": {
+      "message": "The selected product id is invalid.",
+      "errors": {
+        "product_id": [
+          "The selected product id is invalid."
+        ]
+      }
+    }
+  },
+  "cacheTtlSeconds": 300,
+  "expected": "the catalogue returns the current product ids after a documented reseed, so add-to-cart works",
+  "workaround": "docker compose exec laravel-api php artisan cache:clear (or wait 5 minutes, or use POST /refresh which flushes the cache)",
+  "note": "migrate:fresh alone does not reproduce this if the cache is empty. The list must be cached before the reseed."
+}

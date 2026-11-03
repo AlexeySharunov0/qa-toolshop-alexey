@@ -1,0 +1,22 @@
+{
+  "title": "Cart and order accept more units than are in stock",
+  "product": {
+    "id": "01M6HKFKWN4J2C933FDEG6M6D1",
+    "name": "Washers",
+    "seededStock": 25
+  },
+  "requestedQuantity": 26,
+  "addToCart": {
+    "status": 200,
+    "body": {
+      "result": "item added or updated"
+    }
+  },
+  "createOrder": {
+    "status": 201,
+    "invoice_number": "INV-2026000005",
+    "total": 92.3
+  },
+  "stockAfterOrder": -2,
+  "expected": "add-to-cart or checkout rejected with 4xx; stock stays >= 0"
+}

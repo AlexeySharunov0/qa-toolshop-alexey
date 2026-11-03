@@ -1,0 +1,1532 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/alexeysharunov/qa-toolshop-alexey/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/alexeysharunov/qa-toolshop-alexey/playwright.config.ts",
+    "rootDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 5
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/alexeysharunov/qa-toolshop-alexey/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/api\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/alexeysharunov/qa-toolshop-alexey/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "id": "ui-chromium",
+        "name": "ui-chromium",
+        "testDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/ui\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/alexeysharunov/qa-toolshop-alexey/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "name": "api",
+        "testDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "snapshotDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 90000,
+        "use": {
+          "testIdAttribute": "data-test",
+          "trace": "on",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 15000,
+          "navigationTimeout": 30000,
+          "baseURL": "http://localhost:8091"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "api"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/alexeysharunov/qa-toolshop-alexey/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "name": "ui-chromium",
+        "testDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "snapshotDir": "/Users/alexeysharunov/qa-toolshop-alexey/tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 90000,
+        "use": {
+          "testIdAttribute": "data-test",
+          "trace": "on",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 15000,
+          "navigationTimeout": 30000,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium",
+          "baseURL": "http://localhost:4200"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "ui-chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api/access.spec.ts",
+      "file": "api/access.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Access control and error handling",
+          "file": "api/access.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "a customer cannot read another customer's order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 694,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.549Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-access-Access-control--db727-ad-another-customer-s-order-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48679b32333bd2b44ec6-9671b1c913da15bdbcf6",
+              "file": "api/access.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "order creation requires authentication",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 303,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.553Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-access-Access-control--44031-ion-requires-authentication-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48679b32333bd2b44ec6-8224a1d9444cd9b48e80",
+              "file": "api/access.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "order creation validates payment method, address and cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 582,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.541Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-access-Access-control--44a89-ent-method-address-and-cart-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48679b32333bd2b44ec6-5e8566db235ca53b797e",
+              "file": "api/access.spec.ts",
+              "line": 51,
+              "column": 7
+            },
+            {
+              "title": "cart endpoints reject requests for a cart that does not exist",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 369,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.551Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-access-Access-control--682ad--a-cart-that-does-not-exist-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "48679b32333bd2b44ec6-32abb549e9acf6ac1722",
+              "file": "api/access.spec.ts",
+              "line": 87,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/cart.spec.ts",
+      "file": "api/cart.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Cart",
+          "file": "api/cart.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "quantity update and removal are reflected in the stored cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 664,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.565Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-cart-Cart-quantity-upd-c6f38-eflected-in-the-stored-cart-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1db9e30f95e5409277a9-140fd05362c0da446a41",
+              "file": "api/cart.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "adding the same product twice merges it into one line",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 340,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.896Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-cart-Cart-adding-the-s-4a766-ice-merges-it-into-one-line-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1db9e30f95e5409277a9-bd197a0dcce9fa119659",
+              "file": "api/cart.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "Thor Hammer business rule: only one per cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 389,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:23.964Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-cart-Cart-Thor-Hammer-business-rule-only-one-per-cart-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1db9e30f95e5409277a9-6509bb45ca296c55bec4",
+              "file": "api/cart.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "cart rejects a quantity of zero or below",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 446,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.166Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-cart-Cart-cart-rejects-a-quantity-of-zero-or-below-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1db9e30f95e5409277a9-b3dd0f924280ae8886cb",
+              "file": "api/cart.spec.ts",
+              "line": 73,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/catalog.spec.ts",
+      "file": "api/catalog.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Catalogue - search, filter, sort",
+          "file": "api/catalog.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "search returns only products whose name matches the term",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 25,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.248Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-catalog-Catalogue---se-3afa8-whose-name-matches-the-term-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aba51760a54b8829c7a1-6859a33389b5605fa4a3",
+              "file": "api/catalog.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "search for a term that cannot exist returns an empty list, not an error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 30,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.264Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-catalog-Catalogue---se-bdd2f--an-empty-list-not-an-error-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aba51760a54b8829c7a1-095c15236e1f63177d13",
+              "file": "api/catalog.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "price-range filter and price sort are both applied",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 39,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.283Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-catalog-Catalogue---se-796cb-price-sort-are-both-applied-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aba51760a54b8829c7a1-6efacadb61824aae4f8e",
+              "file": "api/catalog.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "non-existent product returns 404 instead of an empty object",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 22,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.289Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-catalog-Catalogue---se-45a0a--instead-of-an-empty-object-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aba51760a54b8829c7a1-54c386f237afdd15cd44",
+              "file": "api/catalog.spec.ts",
+              "line": 56,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/checkout-order.spec.ts",
+      "file": "api/checkout-order.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout - order creation @smoke",
+          "file": "api/checkout-order.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "customer can place an order and reads it back with the same totals",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 408,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.306Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-checkout-order-Checkou-b4b37-t-back-with-the-same-totals-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2e36ad7aa54b553716b3-c009ec5721e484c2ec3c",
+              "file": "api/checkout-order.spec.ts",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "order contains exactly the products that were in the cart",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 366,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.323Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-checkout-order-Checkou-de2ac-ducts-that-were-in-the-cart-api/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2e36ad7aa54b553716b3-6267a47b89f764e6869f",
+              "file": "api/checkout-order.spec.ts",
+              "line": 79,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/known-defects.spec.ts",
+      "file": "api/known-defects.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Known defects @known-defect",
+          "file": "api/known-defects.spec.ts",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "BUG-01 a product with zero stock cannot be ordered",
+              "ok": true,
+              "tags": [
+                "known-defect"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "BUG-01: out-of-stock product can be added to the cart and ordered",
+                      "location": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "line": 19,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 300,
+                      "error": {
+                        "message": "Error: adding an out-of-stock product is rejected\n\nexpected status 200 to be within 400..499 (got 200)",
+                        "stack": "Error: adding an out-of-stock product is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:31:70",
+                        "location": {
+                          "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                          "column": 70,
+                          "line": 31
+                        },
+                        "snippet": "  29 |     const cartId = await api.createCart(token);\n  30 |     const add = await api.addToCart(token, cartId, outOfStock!.id, 1);\n> 31 |     expect(add.status, 'adding an out-of-stock product is rejected').toBeWithin(400, 499);\n     |                                                                      ^\n  32 |\n  33 |     const billing = await billingFromLookup(api);\n  34 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "column": 70,
+                            "line": 31
+                          },
+                          "message": "Error: adding an out-of-stock product is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n\n  29 |     const cartId = await api.createCart(token);\n  30 |     const add = await api.addToCart(token, cartId, outOfStock!.id, 1);\n> 31 |     expect(add.status, 'adding an out-of-stock product is rejected').toBeWithin(400, 499);\n     |                                                                      ^\n  32 |\n  33 |     const billing = await billingFromLookup(api);\n  34 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:31:70"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.335Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "BUG-01: out-of-stock product can be added to the cart and ordered",
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "line": 19,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-89877-ero-stock-cannot-be-ordered-api/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-89877-ero-stock-cannot-be-ordered-api/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "column": 70,
+                        "line": 31
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcb130dc686c5e061bee-0ed05f14e411f76b003b",
+              "file": "api/known-defects.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "BUG-02 cart quantity is limited by available stock",
+              "ok": true,
+              "tags": [
+                "known-defect"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "BUG-02: ordering more units than available stock is accepted (25 in stock, 26 ordered)",
+                      "location": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "line": 42,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 305,
+                      "error": {
+                        "message": "Error: adding more units than exist is rejected\n\nexpected status 200 to be within 400..499 (got 200)",
+                        "stack": "Error: adding more units than exist is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:55:68",
+                        "location": {
+                          "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                          "column": 68,
+                          "line": 55
+                        },
+                        "snippet": "  53 |     const cartId = await api.createCart(token);\n  54 |     const add = await api.addToCart(token, cartId, product!.id, 26);\n> 55 |     expect(add.status, 'adding more units than exist is rejected').toBeWithin(400, 499);\n     |                                                                    ^\n  56 |\n  57 |     const billing = await billingFromLookup(api);\n  58 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "column": 68,
+                            "line": 55
+                          },
+                          "message": "Error: adding more units than exist is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n\n  53 |     const cartId = await api.createCart(token);\n  54 |     const add = await api.addToCart(token, cartId, product!.id, 26);\n> 55 |     expect(add.status, 'adding more units than exist is rejected').toBeWithin(400, 499);\n     |                                                                    ^\n  56 |\n  57 |     const billing = await billingFromLookup(api);\n  58 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:55:68"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.367Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "BUG-02: ordering more units than available stock is accepted (25 in stock, 26 ordered)",
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "line": 42,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-8b9ad--limited-by-available-stock-api/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-8b9ad--limited-by-available-stock-api/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "column": 68,
+                        "line": 55
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcb130dc686c5e061bee-19d838d81054b1dd634a",
+              "file": "api/known-defects.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "BUG-03 an empty cart cannot be turned into an order",
+              "ok": true,
+              "tags": [
+                "known-defect"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "BUG-03: an empty cart can be turned into an order with total 0",
+                      "location": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "line": 63,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 329,
+                      "error": {
+                        "message": "Error: checkout with an empty cart is rejected\n\nexpected status 201 to be within 400..499 (got 201)",
+                        "stack": "Error: checkout with an empty cart is rejected\n\nexpected status 201 to be within 400..499 (got 201)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:73:69",
+                        "location": {
+                          "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                          "column": 69,
+                          "line": 73
+                        },
+                        "snippet": "  71 |     const billing = await billingFromLookup(api);\n  72 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));\n> 73 |     expect(order.status, 'checkout with an empty cart is rejected').toBeWithin(400, 499);\n     |                                                                     ^\n  74 |   });\n  75 |\n  76 |   test(\"BUG-04 another customer's cart cannot be consumed\", async ({ api, authed }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "column": 69,
+                            "line": 73
+                          },
+                          "message": "Error: checkout with an empty cart is rejected\n\nexpected status 201 to be within 400..499 (got 201)\n\n  71 |     const billing = await billingFromLookup(api);\n  72 |     const order = await api.createInvoice(token, buildInvoicePayload(cartId, billing));\n> 73 |     expect(order.status, 'checkout with an empty cart is rejected').toBeWithin(400, 499);\n     |                                                                     ^\n  74 |   });\n  75 |\n  76 |   test(\"BUG-04 another customer's cart cannot be consumed\", async ({ api, authed }) => {\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:73:69"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.622Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "BUG-03: an empty cart can be turned into an order with total 0",
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "line": 63,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-6fd0e-not-be-turned-into-an-order-api/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-6fd0e-not-be-turned-into-an-order-api/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "column": 69,
+                        "line": 73
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcb130dc686c5e061bee-ccb89e6348573555e76b",
+              "file": "api/known-defects.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "BUG-04 another customer's cart cannot be consumed",
+              "ok": true,
+              "tags": [
+                "known-defect"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "BUG-04: any authenticated customer can place an order from any cart id",
+                      "location": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "line": 77,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 586,
+                      "error": {
+                        "message": "Error: another customer's cart is not payable (403/404, not 201)\n\nexpected status 201 to be within 400..499 (got 201)",
+                        "stack": "Error: another customer's cart is not payable (403/404, not 201)\n\nexpected status 201 to be within 400..499 (got 201)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:97:7",
+                        "location": {
+                          "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                          "column": 7,
+                          "line": 97
+                        },
+                        "snippet": "   95 |       asStranger.status,\n   96 |       \"another customer's cart is not payable (403/404, not 201)\",\n>  97 |     ).toBeWithin(400, 499);\n      |       ^\n   98 |   });\n   99 | });\n  100 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "column": 7,
+                            "line": 97
+                          },
+                          "message": "Error: another customer's cart is not payable (403/404, not 201)\n\nexpected status 201 to be within 400..499 (got 201)\n\n   95 |       asStranger.status,\n   96 |       \"another customer's cart is not payable (403/404, not 201)\",\n>  97 |     ).toBeWithin(400, 499);\n      |       ^\n   98 |   });\n   99 | });\n  100 |\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:97:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.645Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "BUG-04: any authenticated customer can place an order from any cart id",
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                            "line": 77,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-bd1b2-r-s-cart-cannot-be-consumed-api/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/api-known-defects-Known-de-bd1b2-r-s-cart-cannot-be-consumed-api/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts",
+                        "column": 7,
+                        "line": 97
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcb130dc686c5e061bee-368af2ebdc852e512047",
+              "file": "api/known-defects.spec.ts",
+              "line": 76,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/catalog.spec.ts",
+      "file": "ui/catalog.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Catalogue UI",
+          "file": "ui/catalog.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "search narrows the list to matching products and reset restores it",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2053,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.871Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-catalog-Catalogue-UI-se-accf3-ducts-and-reset-restores-it-ui-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41bbe9a7b3643222e61e-a6f7131f07b4cef30003",
+              "file": "ui/catalog.spec.ts",
+              "line": 10,
+              "column": 7
+            },
+            {
+              "title": "sorting by price descending orders the visible products",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1616,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.896Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-catalog-Catalogue-UI-so-b219d-orders-the-visible-products-ui-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41bbe9a7b3643222e61e-28d4ec41ca74f0a354fd",
+              "file": "ui/catalog.spec.ts",
+              "line": 46,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/checkout.spec.ts",
+      "file": "ui/checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout UI @smoke",
+          "file": "ui/checkout.spec.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "customer places an order through the checkout wizard",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 3118,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:24.929Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-checkout-Checkout-UI-sm-7a72c-through-the-checkout-wizard-ui-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c753ec2ac07f89fe56db-a758815f10d4a2d182cd",
+              "file": "ui/checkout.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "cart totals follow the quantity typed in the cart",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2777,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:25.194Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-checkout-Checkout-UI-sm-19683--quantity-typed-in-the-cart-ui-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c753ec2ac07f89fe56db-1c124a510b1dbb79d735",
+              "file": "ui/checkout.spec.ts",
+              "line": 67,
+              "column": 7
+            },
+            {
+              "title": "checkout with an empty cart shows the empty state and no way forward",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 826,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:25.819Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-checkout-Checkout-UI-sm-f82ab-ty-state-and-no-way-forward-ui-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c753ec2ac07f89fe56db-bc9961c325d179d13baa",
+              "file": "ui/checkout.spec.ts",
+              "line": 95,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/known-defects.spec.ts",
+      "file": "ui/known-defects.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Known UI defects @known-defect",
+          "file": "ui/known-defects.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "BUG-05 one click on \"Confirm\" places the order",
+              "ok": true,
+              "tags": [
+                "known-defect"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "BUG-05: the first \"Confirm\" click only validates the payment, a second click is required to create the order",
+                      "location": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts",
+                        "line": 17,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "ui-chromium",
+                  "projectName": "ui-chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 18979,
+                      "error": {
+                        "message": "Error: the order is created on the first \"Confirm\" click\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#order-confirmation')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - the order is created on the first \"Confirm\" click locator('#order-confirmation') with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#order-confirmation')\u001b[22m\n",
+                        "stack": "Error: the order is created on the first \"Confirm\" click\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#order-confirmation')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - the order is created on the first \"Confirm\" click locator('#order-confirmation') with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#order-confirmation')\u001b[22m\n\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts:47:7",
+                        "location": {
+                          "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts",
+                          "column": 7,
+                          "line": 47
+                        },
+                        "snippet": "  45 |       page.locator('#order-confirmation'),\n  46 |       'the order is created on the first \"Confirm\" click',\n> 47 |     ).toBeVisible({ timeout: 15_000 });\n     |       ^\n  48 |   });\n  49 | });\n  50 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts",
+                            "column": 7,
+                            "line": 47
+                          },
+                          "message": "Error: the order is created on the first \"Confirm\" click\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#order-confirmation')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - the order is created on the first \"Confirm\" click locator('#order-confirmation') with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#order-confirmation')\u001b[22m\n\n\n  45 |       page.locator('#order-confirmation'),\n  46 |       'the order is created on the first \"Confirm\" click',\n> 47 |     ).toBeVisible({ timeout: 15_000 });\n     |       ^\n  48 |   });\n  49 | });\n  50 |\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts:47:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-03T21:02:26.789Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "BUG-05: the first \"Confirm\" click only validates the payment, a second click is required to create the order",
+                          "location": {
+                            "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts",
+                            "line": 17,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-known-defects-Known-UI--b726e-on-Confirm-places-the-order-ui-chromium/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/alexeysharunov/qa-toolshop-alexey/test-results/ui-known-defects-Known-UI--b726e-on-Confirm-places-the-order-ui-chromium/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts",
+                        "column": 7,
+                        "line": 47
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b9fcbbc85f96c8c21d46-c37a23f22a13a6618b37",
+              "file": "ui/known-defects.spec.ts",
+              "line": 16,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-03T21:02:23.242Z",
+    "duration": 22693.803,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

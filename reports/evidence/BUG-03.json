@@ -1,0 +1,10 @@
+{
+  "title": "An empty cart can be turned into an order with total 0",
+  "cartId": "01m6hkfzvywf2w5jd1exws9z11",
+  "createOrder": {
+    "status": 201,
+    "invoice_number": "INV-2026000006",
+    "total": 0
+  },
+  "expected": "checkout rejected with 4xx because the cart has no items"
+}
