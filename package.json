@@ -1,0 +1,20 @@
+{
+  "name": "qa-toolshop-alexey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prionex QA Engineer (AI First) test assignment - Playwright + TypeScript against a local Toolshop sprint5 instance",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui-chromium",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report reports/html",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.9",
+    "typescript": "^7.0.2"
+  }
+}
