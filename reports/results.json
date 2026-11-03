@@ -187,12 +187,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 694,
+                      "duration": 977,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.549Z",
+                      "startTime": "2026-11-03T21:09:15.486Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -227,12 +227,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 303,
+                      "duration": 529,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.553Z",
+                      "startTime": "2026-11-03T21:09:15.519Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -267,12 +267,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 582,
+                      "duration": 869,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.541Z",
+                      "startTime": "2026-11-03T21:09:15.513Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -307,12 +307,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 369,
+                      "duration": 538,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.551Z",
+                      "startTime": "2026-11-03T21:09:15.483Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -364,12 +364,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 664,
+                      "duration": 658,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.565Z",
+                      "startTime": "2026-11-03T21:09:15.504Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -401,15 +401,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 340,
+                      "duration": 403,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.896Z",
+                      "startTime": "2026-11-03T21:09:16.059Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -441,15 +441,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 389,
+                      "duration": 378,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:23.964Z",
+                      "startTime": "2026-11-03T21:09:16.078Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -481,15 +481,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 446,
+                      "duration": 492,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.166Z",
+                      "startTime": "2026-11-03T21:09:16.192Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -538,15 +538,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 25,
+                      "duration": 21,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.248Z",
+                      "startTime": "2026-11-03T21:09:16.416Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -578,15 +578,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 30,
+                      "duration": 25,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.264Z",
+                      "startTime": "2026-11-03T21:09:16.447Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -621,12 +621,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 39,
+                      "duration": 43,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.283Z",
+                      "startTime": "2026-11-03T21:09:16.467Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -658,15 +658,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 22,
+                      "duration": 23,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.289Z",
+                      "startTime": "2026-11-03T21:09:16.477Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -717,15 +717,15 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 408,
+                      "duration": 443,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.306Z",
+                      "startTime": "2026-11-03T21:09:16.482Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -762,12 +762,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 366,
+                      "duration": 394,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.323Z",
+                      "startTime": "2026-11-03T21:09:16.505Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -828,10 +828,10 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 300,
+                      "duration": 296,
                       "error": {
                         "message": "Error: adding an out-of-stock product is rejected\n\nexpected status 200 to be within 400..499 (got 200)",
                         "stack": "Error: adding an out-of-stock product is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:31:70",
@@ -855,7 +855,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.335Z",
+                      "startTime": "2026-11-03T21:09:16.512Z",
                       "annotations": [
                         {
                           "type": "fail",
@@ -919,10 +919,10 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 305,
+                      "duration": 280,
                       "error": {
                         "message": "Error: adding more units than exist is rejected\n\nexpected status 200 to be within 400..499 (got 200)",
                         "stack": "Error: adding more units than exist is rejected\n\nexpected status 200 to be within 400..499 (got 200)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:55:68",
@@ -946,7 +946,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.367Z",
+                      "startTime": "2026-11-03T21:09:16.517Z",
                       "annotations": [
                         {
                           "type": "fail",
@@ -1010,10 +1010,10 @@
                   "projectName": "api",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "failed",
-                      "duration": 329,
+                      "duration": 330,
                       "error": {
                         "message": "Error: checkout with an empty cart is rejected\n\nexpected status 201 to be within 400..499 (got 201)",
                         "stack": "Error: checkout with an empty cart is rejected\n\nexpected status 201 to be within 400..499 (got 201)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:73:69",
@@ -1037,7 +1037,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.622Z",
+                      "startTime": "2026-11-03T21:09:16.696Z",
                       "annotations": [
                         {
                           "type": "fail",
@@ -1104,7 +1104,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 586,
+                      "duration": 626,
                       "error": {
                         "message": "Error: another customer's cart is not payable (403/404, not 201)\n\nexpected status 201 to be within 400..499 (got 201)",
                         "stack": "Error: another customer's cart is not payable (403/404, not 201)\n\nexpected status 201 to be within 400..499 (got 201)\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/api/known-defects.spec.ts:97:7",
@@ -1128,7 +1128,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.645Z",
+                      "startTime": "2026-11-03T21:09:16.813Z",
                       "annotations": [
                         {
                           "type": "fail",
@@ -1200,12 +1200,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2053,
+                      "duration": 2167,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.871Z",
+                      "startTime": "2026-11-03T21:09:17.014Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1240,12 +1240,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1616,
+                      "duration": 1585,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.896Z",
+                      "startTime": "2026-11-03T21:09:17.103Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1297,14 +1297,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 4,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3118,
+                      "duration": 2682,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:24.929Z",
+                      "startTime": "2026-11-03T21:09:17.153Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1339,14 +1339,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 2,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 2777,
+                      "duration": 2352,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:25.194Z",
+                      "startTime": "2026-11-03T21:09:17.315Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1383,12 +1383,12 @@
                       "workerIndex": 9,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 826,
+                      "duration": 754,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:25.819Z",
+                      "startTime": "2026-11-03T21:09:17.869Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1452,7 +1452,7 @@
                       "workerIndex": 9,
                       "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 18979,
+                      "duration": 18862,
                       "error": {
                         "message": "Error: the order is created on the first \"Confirm\" click\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#order-confirmation')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - the order is created on the first \"Confirm\" click locator('#order-confirmation') with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#order-confirmation')\u001b[22m\n",
                         "stack": "Error: the order is created on the first \"Confirm\" click\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#order-confirmation')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - the order is created on the first \"Confirm\" click locator('#order-confirmation') with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#order-confirmation')\u001b[22m\n\n    at /Users/alexeysharunov/qa-toolshop-alexey/tests/ui/known-defects.spec.ts:47:7",
@@ -1476,7 +1476,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-03T21:02:26.789Z",
+                      "startTime": "2026-11-03T21:09:18.888Z",
                       "annotations": [
                         {
                           "type": "fail",
@@ -1522,8 +1522,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-03T21:02:23.242Z",
-    "duration": 22693.803,
+    "startTime": "2026-11-03T21:09:15.249Z",
+    "duration": 22666.29,
     "expected": 24,
     "skipped": 0,
     "unexpected": 0,
